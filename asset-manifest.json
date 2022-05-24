@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/my-portfolio/static/js/main.e2d8fbff.js",
+    "static/media/vídeo-codeburger.gif": "/my-portfolio/static/media/vídeo-codeburger.0b6d6db9edb278caa2ec.gif",
+    "static/media/vídeo-dev-contábil.gif": "/my-portfolio/static/media/vídeo-dev-contábil.0e33d3007722ab5d0315.gif",
+    "static/media/vídeo-ps-store.gif": "/my-portfolio/static/media/vídeo-ps-store.a50ff7771d633763fd6e.gif",
+    "static/media/vídeo-user-registration.gif": "/my-portfolio/static/media/vídeo-user-registration.f2baa86469953cf21e3f.gif",
+    "static/media/LogoDevClub.png": "/my-portfolio/static/media/LogoDevClub.6b8598da00a0ae589fdc.png",
+    "static/media/vídeo-react-form.gif": "/my-portfolio/static/media/vídeo-react-form.ef2d7eff8541132e71d4.gif",
+    "static/media/vídeo-burger-interface.gif": "/my-portfolio/static/media/vídeo-burger-interface.5ceb19f57f778f841cfb.gif",
+    "static/media/vídeo-currency-converter.gif": "/my-portfolio/static/media/vídeo-currency-converter.c94114367e416e091b58.gif",
+    "static/media/vídeo-calculator.gif": "/my-portfolio/static/media/vídeo-calculator.26bf56393dacfa24466c.gif",
+    "static/media/photo-picture.jpeg": "/my-portfolio/static/media/photo-picture.68058f08fd4528c9d027.jpeg",
+    "static/media/mongodb-logo.png": "/my-portfolio/static/media/mongodb-logo.76cc4c9349d2134b1540.png",
+    "static/media/node-logo.jpg": "/my-portfolio/static/media/node-logo.0c07a4e3431c1d2835ac.jpg",
+    "static/media/docker-logo.png": "/my-portfolio/static/media/docker-logo.5c57d7dc260688395cc1.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.e2d8fbff.js.map": "/my-portfolio/static/js/main.e2d8fbff.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e2d8fbff.js"
+  ]
+}
