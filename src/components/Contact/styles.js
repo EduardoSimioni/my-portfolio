@@ -46,4 +46,22 @@ export const Container = styled.footer`
       cursor: pointer;
     }
   }
+
+  @media (max-width: 420px) {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+
+    .linksContact {
+      display: flex;
+      flex-direction: column;
+      align-items: none;
+      padding: 0px;
+
+      ul {
+        gap: 40px;
+        margin: 20px;
+      }
+    }
+  }
 `

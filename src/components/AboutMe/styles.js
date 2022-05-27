@@ -68,4 +68,33 @@ export const Container = styled.section`
     flex-direction: column;
     gap: 10px;
   }
+
+  @media (max-width: 420px) {
+    display: flex;
+    flex-direction: column;
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .about-text {
+      max-width: 390px;
+      padding-top: 30px;
+      padding-left: 0px;
+    }
+
+    img {
+      margin-top: 20;
+    }
+
+    .list {
+      max-width: 400px;
+    }
+
+    ul {
+      padding-bottom: 10px;
+    }
+  }
 `

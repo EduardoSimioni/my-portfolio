@@ -27,14 +27,17 @@ export function Experience() {
           <p className="label">Tenho conhecimento nas seguintes tecnologias:</p>
           <div className="listBox">
             <ul>
-              <li>
+              <li className="miniature-html">
                 HTML
                 <img src={HtmlLogo} alt="ícone-html" className="miniature" />
               </li>
-              <li style={{ marginBottom: 160 }}>
-                CSS <img src={CssLogo} alt="ícone-css" className="miniature" />
+
+              <li className="miniature-css">
+                CSS
+                <img src={CssLogo} alt="ícone-css" className="miniature" />
               </li>
-              <li>
+
+              <li className="miniature-js">
                 JavaScript
                 <img
                   src={JsLogo}
@@ -43,19 +46,21 @@ export function Experience() {
                 />
               </li>
 
-              <li style={{ marginBottom: 160 }}>
+              <li className="miniature-github ">
                 Git e GitHub
                 <img
                   src={GitLogo}
                   alt="ícone-github"
-                  className="miniatureGit"
+                  className="miniature-git"
                 />
               </li>
-              <li>
+
+              <li className="miniature-node">
                 Node
                 <img src={NodeLogo} alt="ícone-node" className="miniature" />
               </li>
-              <li style={{ marginBottom: 160 }}>
+
+              <li className="miniature-react ">
                 React
                 <img
                   style={{ backgroundColor: '#ffffff' }}
@@ -64,7 +69,8 @@ export function Experience() {
                   alt="ícone-react"
                 />
               </li>
-              <li>
+
+              <li className="miniature-postgres">
                 Postgres
                 <img
                   src={PostgresLogo}
@@ -72,7 +78,8 @@ export function Experience() {
                   className="miniature"
                 />
               </li>
-              <li style={{ marginBottom: 160 }}>
+
+              <li className="miniature-mongo">
                 MongoDB
                 <img
                   src={MongoLogo}
@@ -80,7 +87,8 @@ export function Experience() {
                   className="miniature"
                 />
               </li>
-              <li>
+
+              <li className="miniature-docker">
                 Docker
                 <img
                   src={DockerLogo}

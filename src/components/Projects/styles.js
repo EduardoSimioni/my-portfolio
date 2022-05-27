@@ -13,6 +13,14 @@ export const Container = styled.section`
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border: none;
     margin: 15px;
+
+    @media (max-width: 420px) {
+      width: 40px;
+      height: 40px;
+      min-width: 40px;
+      line-height: 40px;
+      font-size: 1.4em;
+    }
   }
   .rec.rec-arrow:hover {
     border-radius: 2px solid;
@@ -59,6 +67,10 @@ export const ProjectContainer = styled.div`
   width: 400px;
   min-height: 400px;
   margin-top: 10px;
+
+  @media (max-width: 420px) {
+    min-height: 300px;
+  }
 `
 
 export const ProjectName = styled.p`
@@ -78,6 +90,9 @@ export const ProjectName = styled.p`
 
 export const ProjectImage = styled.img`
   max-width: 380px;
+  @media (max-width: 420px) {
+    max-width: 280px;
+  }
 `
 
 export const ProjectDescription = styled.details`

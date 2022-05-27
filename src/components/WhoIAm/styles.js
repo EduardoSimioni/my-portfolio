@@ -48,6 +48,27 @@ export const Container = styled.section`
   .text {
     margin: 30px 0 0 30px;
   }
+
+  @media (max-width: 420px) {
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+
+    .whoInfo {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 100vw;
+    }
+
+    img {
+      width: 340px;
+      align-self: center;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+  }
 `
 
 export const Line = styled.div`

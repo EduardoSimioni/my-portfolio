@@ -56,6 +56,7 @@ export const Container = styled.section`
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-bottom: 80px;
         background-image: linear-gradient(
           90deg,
           rgb(63, 250, 86) 0%,
@@ -69,11 +70,34 @@ export const Container = styled.section`
           height: 90px;
         }
 
-        .miniatureGit {
+        .miniature-git {
           height: 90px;
           background: white;
         }
       }
+    }
+  }
+
+  @media (max-width: 420px) {
+    display: flex;
+    flex-direction: column;
+
+    li {
+      margin-bottom: 0;
+      align-self: center;
+    }
+
+    ul {
+      display: grid !important;
+      margin: 0;
+      width: max-content;
+      height: max-content;
+      grid-template-columns: 120px 120px;
+      grid-template-rows: 150px 150px 150px 150px 150px;
+    }
+
+    .label {
+      padding-bottom: 30px;
     }
   }
 `
